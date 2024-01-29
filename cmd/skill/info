@@ -1,0 +1,6 @@
+$ go build -o skill
+$ RUN_ADDR=:8081 ./skill
+Running server on :8081
+
+$ RUN_ADDR=:8082 ./skill -a :8081
+Running server on :8082
